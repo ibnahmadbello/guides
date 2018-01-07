@@ -1,14 +1,14 @@
 ---
 title: Python Frozenset
 ---
-**`frozenset` basic info**
+**`frozenset` basic info**<br>
 The `frozenset` type is a builtin set types which is immutable and hashable -- its content cannot be altered after it is created; however, it can be used as a dictionary key or as an element of another set.
 
-`frozenset` constructor:
+`frozenset` constructor:<br>
 `frozenset([iterable])`
 The iterable contains elements to initialize the frozenset with. The iterable can be set, dictionary, tuple etc. If no parameter is passed to the `frozenset()` method, it returns an empty frozenset.
 
-**Examples:**
+**Examples:**<br>
 Frozenset are like sets except that they cannot be changed, i.e they are immutable.
 
     >>> cities = frozenset(["Frankfurt", "Basel", "Freiburg"])
